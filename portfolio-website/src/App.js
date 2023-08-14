@@ -1,25 +1,24 @@
 import logo from './logo.svg';
+import Image from "./Assets/Convocation2.jpg";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+ 
+  return(
+    <div className = "page-background" >
+    <div className ="App">
+      <h1 >Hello! Welcome to my website.</h1>
+      <body>I will be building this website as my portfolio from scratch. Hope you have fun
+</body>
+
     </div>
-  );
+    
+    
+    </div>
+    
+  )
+  
 }
 
 export default App;
