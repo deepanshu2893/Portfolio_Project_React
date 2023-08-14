@@ -1,22 +1,32 @@
 import logo from './logo.svg';
 import Image from "./Assets/Convocation2.jpg";
 import './App.css';
+import Header from "./components/NavigationBar";
+import Home from './components/Home/Home';
+import NavBar from './components/NavigationBar';
+import { BrowserRouter, Navigate, Route, Router, Routes } from 'react-router-dom';
 
 function App() {
 
  
   return(
-    <div className = "page-background" >
-    <div className ="App">
-      <h1 >Hello! Welcome to my website.</h1>
-      <body>I will be building this website as my portfolio from scratch. Hope you have fun
-</body>
+    <BrowserRouter>
+  
+    <div clasName = "App">
+      <NavBar />
+      <Routes>
+        <Route path="/" element = {<Home />} />
+        <Route path="*" element={<Navigate to="/"/>} />
+
+
+
+      </Routes>
+
+
 
     </div>
-    
-    
-    </div>
-    
+    </BrowserRouter>
+
   )
   
 }

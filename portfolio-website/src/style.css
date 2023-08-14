@@ -1,5 +1,8 @@
-.background {
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-}
+.page-background {
+    /* background-color: black; */
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+    
+  }

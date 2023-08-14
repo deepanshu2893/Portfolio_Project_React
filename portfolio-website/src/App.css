@@ -7,21 +7,15 @@
   }
 }
 
-.App {
+
+
+.Home {
   text-align: center;
   margin-top: 20px;
   animation: fadeIn 1s ease-in-out;
-  color: white;
-  
+  /* color: white; */
 }
 
-.page-background {
-  background-color: black;
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  
-  
-}
+
 
 
