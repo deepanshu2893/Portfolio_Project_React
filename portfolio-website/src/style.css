@@ -1,11 +1,17 @@
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
+    );
+  
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863)
+    );
+  
+    --imp-text-color: #c770f0;
   }
   
  
@@ -142,12 +148,20 @@
     width: 100%;
   }
 
- 
+ /* Home Page */
 
   .home-content {
     padding: 9rem 0 2rem !important;
     color: whitesmoke;
-    text-align: left;
+    text-align:center;
     background-color: black;
+    
+  }
+  
+  .home-body {
+    padding: 100px;
+    margin: 20px;
+    color: #be50f4;
+
   }
   

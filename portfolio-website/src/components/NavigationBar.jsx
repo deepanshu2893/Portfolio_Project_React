@@ -17,6 +17,16 @@ export default function NavBar() {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
 
+    function scrollHandler() {
+        if (window.scrollY >= 20) {
+            updateNavbar(true);
+
+        } else {
+            updateNavbar(false); 
+        }
+    }
+    window.addEventListener("scroll", scrollHandler);
+
     return (
         <Navbar
         expanded={expand}
@@ -24,13 +34,16 @@ export default function NavBar() {
         expand="md"
         className={navColour ? "sticky" : "navbar"}
       >
-         <Container className="d-flex justify-content-center">
+        <Container>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             onClick={() => {
               updateExpanded(expand ? false : "expanded");
             }}
           />
+          <span></span>
+          <span></span>
+          <span></span>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>

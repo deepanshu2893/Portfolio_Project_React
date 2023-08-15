@@ -5,20 +5,26 @@ export default function Home() {
 
     return (
     
-    <div className = "" >
+  
     <div className ="home-content">
       <h1 >
-        {/* <Type /> */}
+        <Type />
       </h1>
-      <body>I will be building this website as my portfolio from scratch. Hope you have fun
-</body>
+      <div className = "home-body">
+        <h1> 
+        I will be building this website as my portfolio from scratch. Hope you have fun
+        </h1>
+
+      </div>
+      
+        
+         
+
 
     </div>
 
     
-    
-    </div>
-    
+  
 
     )
 }
