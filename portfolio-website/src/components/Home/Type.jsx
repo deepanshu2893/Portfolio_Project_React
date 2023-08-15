@@ -6,7 +6,8 @@ export default function Type() {
         options={{
             strings : [
                 "Hello, welcome to my website",
-                "Thank You"
+                "I am an aspring developer",
+                "My tech stack includes Java, Spring Boot, React and My SQL"
 
             ],
             autoStart: true,

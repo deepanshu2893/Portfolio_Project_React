@@ -1,9 +1,12 @@
 import Type from "./Type"
 
 export default function Home() {
+
+
     return (
-<div className = "page-background" >
-    <div className ="Home">
+    
+    <div className = "" >
+    <div className ="home-content">
       <h1 >
         {/* <Type /> */}
       </h1>
