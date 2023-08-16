@@ -11,6 +11,7 @@ export default function HTMLBasics() {
             <h1 className="">
                 <mark >This is a heading</mark>
             </h1>
+            <h1 style={{color:"blue", backgroundColor:"yellow"}}>Hello World</h1>
             <body >
                 This is the body
             </body>
