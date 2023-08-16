@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import {CgFileDocument} from "react-icons/cg"
 import { Link } from "react-router-dom";
+import photo from "../Assets/Convocation2.jpg"
 
 
 
@@ -35,6 +36,9 @@ export default function NavBar() {
         className={navColour ? "sticky" : "navbar"}
       >
         <Container>
+        <Navbar.Brand href="/" className="d-flex">
+          <img src={photo} className="img-fluid logo" alt="brand" />
+        </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             onClick={() => {

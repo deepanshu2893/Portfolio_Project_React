@@ -9,22 +9,23 @@ import { BrowserRouter, Navigate, Route, Router, Routes } from 'react-router-dom
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
+import HTMLBasics from './Practice Folder/HTMLBasics';
 
 function App() {
 
  
   return(
     <BrowserRouter>
-  
     <div clasName = "App">
-      <NavBar />
+      {/* <NavBar />
       <Routes>
         <Route path="/" element = {<Home />} />
         <Route path = "/about" element = {<About />} /> 
         <Route path="/projects" element={<Projects/>} />
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<Navigate to="/"/>} />
-      </Routes>
+      </Routes> */}
+      <HTMLBasics /> 
 
 
 
