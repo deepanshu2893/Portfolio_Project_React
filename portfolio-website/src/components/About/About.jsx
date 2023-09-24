@@ -7,7 +7,7 @@ export default function About(){
 
         <div>
 
-            Hello, in this section I will introduce myself. I am a self taught programmer! I am still learning how to code !
+            Hello, in this section I will introduce myself. I am a self taught programmer!
         </div>
     )
 }
