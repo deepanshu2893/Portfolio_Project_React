@@ -55,6 +55,7 @@ export default function HTMLBasics() {
 
                     <button type = "submit">Submit</button>
                 </form>
+                
 
 
 <section>
@@ -76,18 +77,10 @@ export default function HTMLBasics() {
                 <p> Hello what is up</p>
                 </section>
                 <p>Hello what is up</p>
-
                 <time>10</time>
-
-                
-
-                
-               
-
                 <footer>
                     This is the footer
                 </footer>
-
         </div>
     )
 }
