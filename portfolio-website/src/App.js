@@ -13,11 +13,11 @@ import HTMLBasics from './Practice Folder/HTMLBasics';
 
 function App() {
 
- 
-  return(
+
+  return (
     <BrowserRouter>
-    <div clasName = "App">
-      {/* <NavBar />
+      <div clasName="App">
+        {/* <NavBar />
       <Routes>
         <Route path="/" element = {<Home />} />
         <Route path = "/about" element = {<About />} /> 
@@ -25,15 +25,15 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes> */}
-      <HTMLBasics /> 
+        <HTMLBasics />
 
 
 
-    </div>
+      </div>
     </BrowserRouter>
 
   )
-  
+
 }
 
 export default App;
